@@ -58,6 +58,10 @@ body{
       width: 60%;
       padding: 10px;
     }
+
+    div.links{
+      color: white;
+    }
   
   }
   
