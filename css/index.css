@@ -32,6 +32,13 @@ body{
     width: 24.99999%;
     margin: 50px;
   }
+
+  .title{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    margin: 0 30 0 30;
+  }
   
   @media only screen and (min-width: 751px) {
     .responsive {
@@ -44,6 +51,12 @@ body{
     .responsive {
       width: 100%;
       margin: 0px;
+    }
+
+    div.title{
+      margin: auto;
+      width: 60%;
+      padding: 10px;
     }
   
   }
