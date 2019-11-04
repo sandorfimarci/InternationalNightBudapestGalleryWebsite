@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+  background-color: #131021;
+  color: white;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 7px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 0px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 900px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .responsive {
+    width: 100%;
+  }
+
+}
+
+
+/*sajat*/
+@media screen and (orientation:landscape) { 
+
+  div.gallery img{
+    height: 100vh;
+  }
+ }
+
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Budapest Gallery</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <!--<a target="_blank" href="images/bp1.jpg">-->
+      <img src="images/bp1.jpg" alt="Parlament" width="600" height="400">
+    <!--</a>-->
+    <div class="desc">Parlament with Dunau</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+   
+      <img src="images/bp2.jpg" alt="Chain Bridge" width="600" height="400">
+   
+    <div class="desc">Chain Bridge</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="images/bp3.jpg" alt="Bath" width="600" height="400">
+    </a>
+    <div class="desc">In Budapest there are a lot of Türkish Bath</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="images/msz1.jpg" alt="Margit-island" width="600" height="400">
+    </a>
+    <div class="desc">Margit-island</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="images/balaton1.jpg" alt="Balaton - Platensee" width="600" height="400">
+    </a>
+    <div class="desc">Balaton</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+</body>
+</html>
