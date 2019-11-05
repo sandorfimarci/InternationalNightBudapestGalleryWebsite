@@ -30,7 +30,7 @@ body{
     padding: 0 0px;
     float: left;
     width: 24.99999%;
-    margin: 50px;
+    margin: 35px;
   }
 
   .title{
@@ -50,20 +50,24 @@ body{
   @media only screen and (max-width: 750px) {
     .responsive {
       width: 100%;
-      margin: 0px;
+      margin: 10px 0 0 0px;
     }
 
     div.title{
       margin: auto;
       width: 60%;
       padding: 10px;
-    }
+    }  
+  }
 
-    #text{
-      size: 20;
-      color: yellow;
-    }
-  
+  table, th, td{
+    
+    width: 100%;
+    padding: 0;
+  }
+  th{
+    
+  text-align: left;
   }
   
   
